@@ -1,0 +1,568 @@
+.right{
+    display:flex;
+    gap:30px;
+    width:800px;
+}
+body{
+    background-color: black;
+}
+.nav{
+    height:40px;
+    width:1500px;
+    background-color: rgb(0, 0, 0);
+    
+}
+a{
+    margin-top: 8px;
+    color:rgb(197, 201, 204);
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+    text-decoration: underline;
+}
+.bttn{
+    background:linear-gradient(to right,rgb(116, 156, 232) 0%,rgb(132, 1, 247) 100%);
+    height:30px;
+    margin-top:8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+
+}
+.carousel p{
+    margin-left: -900px;
+    color:white;
+    margin-top: 20px;
+}
+.btn{
+    margin-left:-900px;
+}
+.crousel{
+    margin:4em auto;
+    width:90%;
+    overflow-x: auto;
+    display: flex;
+    gap:6em;
+    margin-top: 20px;
+    scroll-behavior: smooth;
+   
+}
+.crousel::-webkit-scrollbar{
+    display: none;
+}
+.crousel::scroll-button(right){
+    content:'➡️';
+    border:none;
+    height:60px;
+    color:black;
+    font-family: consolas;
+    font-size:3rem;
+    height:60px;
+    width:60px;
+    cursor: pointer;
+    
+    margin-left: 50px;
+    float:right;
+    margin-top: -250px;
+    
+
+}
+.crousel::scroll-button(left){
+    content:'⬅️';
+    border:none;
+    height:60px;
+    color:black;
+    font-family: consolas;
+    font-size:3rem;
+    height:60px;
+    width:60px;
+    cursor: pointer;
+    float:left;
+    margin-top: -250px;
+
+    
+}
+.crousel::scroll-button(right):disabled,.crousel::scroll-button(left):disabled {
+    opacity:0.5;
+    cursor:auto;}
+
+
+
+.crousel div{
+    flex:0 0 20em;
+    height:350px;
+    width:350px;
+    text-align: center;
+    align-content: center;
+}
+.card1{
+    background-image: url("https://images.slivcdn.com/videoasset_images/blitz_assets/1090492553/portraitThumb/1760774135890_./Mirage_1_Portrait_Thumb_NewMovie_1.jpg?h=414&w=414&q=high");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+
+}
+.card2{
+    background-image: url("https://images.slivcdn.com/videoasset_images/manage_file/1000008049/1757671541955358_kbc25_gen_portrait_thumb_12sep.jpg?h=414&w=414&q=high");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card3{
+    background-image:url("https://images.slivcdn.com/videoasset_images/blitz_assets/1790006100/portraitThumb/1759750215031_MDLI_S2_2_Portrait_Thumb2.jpg?h=414&w=414&q=high");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card4{
+    background-image:url("https://images.slivcdn.com/videoasset_images/manage_file/1000010048/1760025834685167_AsiaCup_Glory_24x7_portrait_thumb_9OCT.jpg?h=414&w=414&q=high");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card5{
+    background-image:url("https://images.slivcdn.com/videoasset_images/blitz_assets/1700001014/portraitThumb/1760784686234_./IndianIdol_2025_26_Portrait_Thumb_NewSeason.jpg?h=414&w=414&q=high");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card6{
+    background-image:url("https://images.slivcdn.com/videoasset_images/blitz_assets/1700001266/portraitThumb/1759813727841_IGT2025_2_Portrait_Thumb_NewSeason_SP_2.jpg?h=414&w=414&q=high");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card7{
+    background-image:url("https://images.slivcdn.com/portrait_thumb/Pushpa1_Portrait_Thumb.jpg?h=414&w=414&q=high");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card8{
+    background-image:url("https://images.slivcdn.com/videoasset_images/blitz_assets/1090492293/portraitThumb/1760358326201_./TMKOC25_6_Portrait_Thumb_SP.jpg?h=414&w=414&q=high");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card9{
+    background-image:url("https://images.slivcdn.com/videoasset_images/blitz_assets/1000062135/portraitThumb/1760032916929_1760024060744455_SCAM1992_5years_Portrait_Thumb.jpg?h=414&w=414&q=high");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card10{
+    background-image:url("https://images.slivcdn.com/videoasset_images/manage_file/1000010101/1760111995727937_Maharani_10oct25_portrat_thumb2.jpg?h=414&w=414&q=high");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h3{
+    color:white;
+    margin-top: 10px;
+    margin-left:50px;
+}
+.cardp{
+    flex:0 0 10em;
+    height:250px;
+    width:30px;
+    text-align: center;
+    align-content: center;
+    background-color: beige;
+}
+.cardp:hover{
+    transition-duration:0.5s;
+    scale:1;
+    height:300px;
+    border-radius: 20px;
+    margin-top: -20px;
+}
+.card11{
+    background-image: url("https://images.slivcdn.com/videoasset_images/manage_file/1000010462/1761189875712885_UCL2526_Frankfurt_vs_Liverpool_23oct_hls_portrait_thumb.jpg?h=494&w=344&q=high");
+    background-size: cover;
+}
+.card12{
+    background-image: url("https://images.slivcdn.com/videoasset_images/manage_file/1000009914/1759722612251903_AsianTour25_International_Series_Philippines_Day1_5oct_live_portrait_thumb.jpg?h=494&w=344&q=high");
+    background-size: cover;
+}
+.card13{
+    background-image: url("https://images.slivcdn.com/videoasset_images/manage_file/1000010466/1761196669966386_UCL2526_Chelsea_vs_Ajax_23oct_hls_portrait_thumb.jpg?h=494&w=344&q=high");
+    background-size: cover;
+}
+.card14{
+    background-image: url("https://images.slivcdn.com/videoasset_images/manage_file/1000010464/1761194351066882_UCL2526_Real_Madrid_vs_Juventus_23oct_hls_portrait_thumb.jpg?h=494&w=344&q=high");
+    background-size: cover;
+}
+.card15{
+    background-image: url("https://images.slivcdn.com/videoasset_images/manage_file/1000010465/1761195523763908_UCL2526_Bayern_vs_Club_Brugge_23oct_hls_portrait_thumb.jpg?h=494&w=344&q=high");
+    background-size: cover;
+}
+.card16{
+    background-image: url("https://images.slivcdn.com/videoasset_images/manage_file/1000010305/1760611173420119_UEL2526_Nott_Forest_vs_Porto_16oct_tonight_portrait_thumb.jpg?h=494&w=344&q=high");
+    background-size: cover;
+}
+.card17{
+    background-image: url("https://images.slivcdn.com/videoasset_images/manage_file/1000010048/1760025834685167_AsiaCup_Glory_24x7_portrait_thumb_9OCT.jpg?h=494&w=344&q=high");
+    background-size: cover;
+}
+.card18{
+    background-image: url("https://images.slivcdn.com/videoasset_images/manage_file/1000010433/1761111432735643_UCL2526_Arsenal_vs_Atletico_22oct_hls_portrait_thumb.jpg?h=494&w=344&q=high");
+    background-size: cover;
+}
+.card19{
+    background-image: url("https://images.slivcdn.com/videoasset_images/manage_file/1000010439/1761116455290839_UCL2526_Barcelona_vs_Olympiacos_22oct_hls_portrait_thumb.jpg?h=494&w=344&q=high");
+    background-size: cover;
+}
+.card20{
+    background-image: url("https://images.slivcdn.com/videoasset_images/manage_file/1000010432/1761109611263797_UCL2526_Leverkusen_vs_PSG_22oct_hls_portrait_thumb.jpg?h=494&w=344&q=high");
+    background-size: cover;
+}
+.card21{
+    background-image: url("https://images.slivcdn.com/videoasset_images/manage_file/1000010431/176110751062192_UCL2526_Villarreal_vs_ManCity_22oct_hls_portrait_thumb.jpg?h=494&w=344&q=high");
+    background-size: cover;
+}
+.card22{
+    background-image: url("https://images.slivcdn.com/videoasset_images/manage_file/1000010379/1760817139569218_Bundesliga_MD7_Bayern_vs_dortmund_hls_portrait_thumb.jpg?h=494&w=344&q=high");
+    background-size: cover;
+}
+.card23{
+    background-image: url("https://images.slivcdn.com/videoasset_images/manage_file/1000010392/1760955285649160_NZvsENG25_2t20i_20oct_hls_portrait_thumb.jpg?h=494&w=344&q=high");
+    background-size: cover;
+}
+.card24{
+    background-image: url("https://images.slivcdn.com/videoasset_images/manage_file/1000010345/1760709164219905_UFC_fight_night_replay_portrait_thumb.jpg?h=494&w=344&q=high");
+    background-size: cover;
+}
+.card25{
+    background-image: url("https://images.slivcdn.com/videoasset_images/manage_file/1000010355/1760756631178108_Evolve_Succession_EP_Portrait_Thumb_2.jpg?h=494&w=344&q=high");
+    background-size: cover;
+}
+.card26{
+    background-image: url("https://images.slivcdn.com/videoasset_images/manage_file/1000010377/1760807244865435_Hyundai-Archery-World-Cup-Final-HLS_portrait_thumb.jpg?h=494&w=344&q=high");
+    background-size: cover;
+}
+.card27{
+    background-image: url("https://images.slivcdn.com/videoasset_images/manage_file/1000010377/1760808834061435_Bundesliga_MD7_Mainz_vs_Leverkusen_hls_portrait_thumb.jpg?h=494&w=344&q=high");
+    background-size: cover;
+}
+.card28{
+    background-image: url("https://images.slivcdn.com/videoasset_images/manage_file/1000009879/1759572476548335_UCL_25_26_MD3_Union-SG-vs-Inter_hls_portrait_thumb.jpg?h=494&w=344&q=high");
+    background-size: cover;
+}
+.card29{
+    background-image: url("https://images.slivcdn.com/videoasset_images/manage_file/1000010377/1760808834061435_Bundesliga_MD7_Mainz_vs_Leverkusen_hls_portrait_thumb.jpg?h=494&w=344&q=high");
+    background-size: cover;
+}
+.card30{
+    background-image: url("https://images.slivcdn.com/videoasset_images/manage_file/1000009879/1759568175566335_UCL_25_26_MD3_Copenhagen_vs_Dortmund_hls_portrait_thumb.jpg?h=494&w=344&q=high");
+    background-size: cover;
+}
+.crousel1{
+    margin:4em auto;
+    width:90%;
+    overflow-x: auto;
+    display: flex;
+    gap:1em;
+    margin-top: 20px;
+    scroll-behavior: smooth;
+   
+}
+.crousel1::-webkit-scrollbar{
+    display: none;
+}
+.crousel1::scroll-button(right){
+    content:'➡️';
+    border:none;
+    height:60px;
+    color:black;
+    font-family: consolas;
+    font-size:2rem;
+    height:40px;
+    width:40px;
+    cursor: pointer;
+    
+    margin-left: 50px;
+    float:right;
+    margin-top: -200px;
+    
+
+}
+.crousel1::scroll-button(left){
+    content:'⬅️';
+    border:none;
+    
+    color:black;
+    font-family: consolas;
+    font-size:2rem;
+    height:40px;
+    width:40px;
+    cursor: pointer;
+    float:left;
+    margin-top: -200px;
+   
+
+    
+}
+.crousel1::scroll-button(right):disabled,.crousel::scroll-button(left):disabled {
+    opacity:0.5;
+    cursor:auto;}
+.stream{
+    display:flex;
+    
+    gap:20px;
+    margin-left: 80px;
+   
+}
+
+.box1{
+    height:250px;
+    width:400px;
+    /* border:1px solid white; */
+    background-image: url("https://images.slivcdn.com/videoasset_images/bolt_assets/landscape_thumb/1760481129067_1760463920739343_Asiacup_Channel_14oct_landscape_thumb.jpg?h=270&w=482&q=high");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+.box2{
+    height:250px;
+    width:400px;
+    /* border:1px solid white; */
+    background-image: url("https://images.slivcdn.com/videoasset_images/bolt_assets/landscape_thumb/1761142561565_1760480819531_1760463937929343_TMKOC_Channel_14oct_landscape_thumb.jpg?h=270&w=482&q=high");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.classic img{
+    height:300px;
+}
+.classic{
+     margin:4em auto;
+    width:90%;
+    overflow-x: auto;
+    display: flex;
+    gap:1em;
+    margin-top: 20px;
+    scroll-behavior: smooth;
+}
+.classic::-webkit-scrollbar{
+    display: none;
+}
+.classic::scroll-button(right){
+    content:'➡️';
+    border:none;
+    height:60px;
+    color:black;
+    font-family: consolas;
+    font-size:2rem;
+    height:40px;
+    width:40px;
+    cursor: pointer;
+    
+    margin-left: 50px;
+    float:right;
+    margin-top: -200px;
+    
+
+}
+.classic::scroll-button(left){
+    content:'⬅️';
+    border:none;
+    
+    color:black;
+    font-family: consolas;
+    font-size:2rem;
+    height:40px;
+    width:40px;
+    cursor: pointer;
+    float:left;
+    margin-top: -200px;
+   
+
+    
+}
+.classic::scroll-button(right):disabled,.crousel::scroll-button(left):disabled {
+    opacity:0.5;
+    cursor:auto;}
+.classic img:hover{
+        scale:1;
+    transition-duration:0.5s;
+    transition-timing-function:ease-in-out;
+    height:320px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.maharani{
+    width:1300px;
+    height:200px;
+    margin:auto;
+    background-image: url("https://youtu.be/_E2ftxJyTEw?si=Ihwobm7WnqyBbBd0");
+
+    
+    border:1px solid white;
+
+}
+.talent{
+    display:flex;
+    overflow-x:scroll;
+    gap:20px;
+}
+.register{
+    margin:4em auto;
+    width:90%;
+    overflow-x: auto;
+    display: flex;
+    gap:1em;
+    margin-top: 20px;
+    scroll-behavior: smooth;
+   
+}
+.register::-webkit-scrollbar{
+    display: none;
+}
+.register::scroll-button(right){
+    content:'➡️';
+    border:none;
+    height:60px;
+    color:black;
+    font-family: consolas;
+    font-size:3rem;
+    height:60px;
+    width:60px;
+    cursor: pointer;
+    
+    margin-left: 50px;
+    float:right;
+    margin-top: -250px;
+    
+
+}
+.register::scroll-button(left){
+    content:'⬅️';
+    border:none;
+    height:60px;
+    color:black;
+    font-family: consolas;
+    font-size:3rem;
+    height:60px;
+    width:60px;
+    cursor: pointer;
+    float:left;
+    margin-top: -250px;
+
+    
+}
+.register::scroll-button(right):disabled,.crousel::scroll-button(left):disabled {
+    opacity:0.5;
+    cursor:auto;}
+.register img{
+    height:300px;
+}
+.footer{
+    display:flex;
+    justify-content: space-between;
+    color:white;
+}
+.register img:hover{
+    scale:1;
+    transition-duration:0.5s;
+    transition-timing-function:ease-in-out;
+    height:320px;
+    cursor: pointer;
+    border-radius: 30px;
+
+    
+
+}
+.crousel,
+.crousel1,
+.classic,
+.register{
+    display:flex;
+    gap:15px;
+    overflow-x:auto;
+    padding:0 40px;
+}
+
+.crousel::-webkit-scrollbar,
+.crousel1::-webkit-scrollbar,
+.classic::-webkit-scrollbar,
+.register::-webkit-scrollbar{
+    display:none;
+}
+
+.box1:hover,
+.box2:hover{
+    transform:scale(1.05);
+}
+.card,
+.cardp{
+    min-width:180px;
+    height:260px;
+    border-radius:10px;
+    background-size:cover;
+    background-position:center;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.card:hover,
+.cardp:hover{
+    transform:scale(1.1);
+}
+
+@media(max-width:1024px){
+    .nav{
+        padding:10px 20px;
+    }
+
+    .right{
+        gap:10px;
+        flex-wrap:wrap;
+    }
+
+    .stream{
+        flex-direction:column;
+        align-items:center;
+    }
+}
+
+@media(max-width:768px){
+    h3{
+        margin-left:20px;
+    }
+
+    .crousel,
+    .crousel1,
+    .classic,
+    .register{
+        padding:0 20px;
+    }
+
+    .card,
+    .cardp{
+        min-width:140px;
+        height:200px;
+    }
+
+    .box1,.box2{
+        height:200px;
+    }
+
+    .footer{
+        flex-direction:column;
+        text-align:center;
+    }
+}
+
+@media(max-width:480px){
+    .right a{
+        display:none; /* hide menu links */
+    }
+
+    .bttn{
+        font-size:12px;
+        padding:5px 10px;
+    }
+
+    .card{
+        min-width:120px;
+        height:180px;
+    }
+}
+
+
+
